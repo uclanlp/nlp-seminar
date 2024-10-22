@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #4CAF50;
-    background-image: url(https://ph.ucla.edu/sites/default/files/styles/hero/public/2023-07/AcademicCalendar_RoyceHall_Header.png?itok=R5GBfOLy);
+    background-image: url('https://ph.ucla.edu/sites/default/files/styles/hero/public/2023-07/AcademicCalendar_RoyceHall_Header.png?itok=R5GBfOLy');
     color: white;
     padding: 10px 0; /* Increase padding for better spacing */
     display: flex;
