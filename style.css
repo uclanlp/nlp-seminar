@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #008080;
 /*     background-image: url('https://ph.ucla.edu/sites/default/files/styles/hero/public/2023-07/AcademicCalendar_RoyceHall_Header.png?itok=R5GBfOLy'); */
     color: white;
     padding: 10px 0; /* Increase padding for better spacing */
@@ -102,13 +102,13 @@ main {
 
 h2 {
     font-size: 32px; /* Larger font size for talk titles */
-    color: #4CAF50;
+    color: #008080;
 }
 
 h3 {
     font-size: 24px; /* Larger font size for talk titles */
     margin: 0px;
-    color: #497D57;
+    color: #004c4c;
 }
 
 p {
@@ -131,7 +131,7 @@ p {
 }
 
 .committee-content h3 {
-    color: #497D57;
+    color: #004c4c;
 }
 
 .committee-list {
