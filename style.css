@@ -1,46 +1,154 @@
 body {
-    /* this should be a nice set of fonts */
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+    font-family: Arial, sans-serif;
     min-height: 100vh;
     margin:0;
-    padding:0 
+    padding:0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-.nav-container {
-    background-color: teal;
-    width:      100%;
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0; /* Increase padding for better spacing */
+    display: flex;
+    justify-content: center;
 }
 
-.nav-menu, .main {
-    max-width:  500pt;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 10px;
+}
+
+.header-text {
+    text-align: center;
+    flex: 1;
+    font-family: 'Georgia', serif; /* Different font for the header text */
+    font-size: 35px
+}
+
+.header-text p {
+    font-size: 20px;
+}
+
+.lab-logos {
+    display: flex;
+    align-items: center;
+}
+
+.lab-logos.left {
+    justify-content: flex-start;
+}
+
+.lab-logos.right {
+    justify-content: flex-end;
+}
+
+.lab-logos img {
+    height: 200px; /* Adjust the size as needed */
+    width: auto;
+    object-fit: contain;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20pt;
+    max-width:  700pt;
     margin:     auto;
 }
 
-.menu-list {
-    display: flex;
-    flex-flow: row-reverse;
-    list-style: none;
-    margin: 0pt;
-    padding: 0pt;
+.talk {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.menu-item a {
-    font-size: 20pt;
-    font-weight: 700;
-    padding: 5pt;
-    color: white;
+.talk-summary {
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-family: 'Verdana', sans-serif;
+}
+
+.speaker-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.speaker-image img {
+    max-width: 200px; /* Maintain aspect ratio */
+    height: 100%; /* Make the image height fill the parent container */
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.talk-details {
+    display: none;
+    margin-top: 10px;
+}
+
+.summary-text {
+    overflow: hidden; /* Clear the float */
+    margin: 0px;
+}
+
+h2 {
+    font-size: 32px; /* Larger font size for talk titles */
+    color: #4CAF50;
+}
+
+h3 {
+    font-size: 24px; /* Larger font size for talk titles */
+    margin: 0px;
+    color: #497D57;
+}
+
+p {
+    font-size: 16px; 
+}
+
+.summary-text h3 {
+}
+
+.talk.expanded .talk-details {
     display: block;
+    padding-bottom: 10px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.committee-content h3 {
+    color: #497D57;
+}
+
+.committee-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.committee-list li {
+    margin-bottom: 10px;
+}
+
+.committee-list a {
+    color: #4CAF50;
     text-decoration: none;
 }
 
-.menu-item a:hover {
-    background-color: #004040;
+.committee-list a:hover {
+    text-decoration: underline;
 }
-
-.main {
-    text-align: justify;
-    padding: 20pt;
-}
-
-
-/* main{flex-grow:1}img{max-width:100%;border-radius:.2rem}pre{overflow-x:auto;border:.1rem solid #d3d3d3;padding:1rem}code{font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace}.Banner{list-style:none;display:flex;flex-flow:row-reverse wrap-reverse;justify-content:space-between;margin:0;padding:0}.Banner-item:nth-child(1){order:2}.Banner-item:nth-child(2){order:1}.Banner-item--title{flex-grow:1}.Banner-link{font-size:1.25rem;color:#fff;padding:.5rem 1rem}.Heading{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline}.Heading-title{margin:1.5rem .5rem 0 0}.Heading-link{color:inherit}.Tags{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;margin:1.5rem 0;padding:0}.Tags-item{border-radius:.2rem;margin:.2rem;padding:0 .3rem}.Tags-link{color:#fff}.Divider{display:flex;justify-content:center}.Divider::after{content:"\a0"}.Pagination{font-size:1.25rem;color:inherit}.Pagination--right{float:right}.Footer{text-align:center;margin:1rem 0}.u-wrapper{max-width:42rem;margin:auto}.u-padding{padding:0 1rem}.u-background{background:teal}.u-clickable{font-weight:700;text-decoration:none;display:inline-block} */
