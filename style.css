@@ -1,56 +1,56 @@
 body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #f5f5f5;
     color: #333;
 }
 
+/* Header styling */
 header {
     background-color: #008080;
-/*     background-image: url('https://ph.ucla.edu/sites/default/files/styles/hero/public/2023-07/AcademicCalendar_RoyceHall_Header.png?itok=R5GBfOLy'); */
     color: white;
-    padding: 10px 0; /* Increase padding for better spacing */
+    padding: 10px 0;
     display: flex;
     justify-content: center;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in the header width calculation */
 }
 
+/* Header content wrapper */
 .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     padding: 0 10px;
+    box-sizing: border-box; /* Prevents the header from overflowing */
 }
 
+/* Text in the header */
 .header-text {
     text-align: center;
     flex: 1;
-    font-family: 'Georgia', serif; /* Different font for the header text */
-    font-size: 35px
+    font-family: 'Georgia', serif;
+    font-size: 35px;
 }
 
+/* Paragraph text in the header */
 .header-text p {
     font-size: 20px;
 }
 
+/* Lab logos styling */
 .lab-logos {
     display: flex;
     align-items: center;
 }
 
-.lab-logos.left {
-    justify-content: flex-start;
-}
-
-.lab-logos.right {
-    justify-content: flex-end;
-}
-
+/* Logo images */
 .lab-logos img {
-    height: 200px; /* Adjust the size as needed */
+    max-height: 150px; /* Use max-height to make the logo size flexible */
     width: auto;
     object-fit: contain;
     margin: 0 10px;
@@ -152,4 +152,15 @@ p {
 
 .committee-list a:hover {
     text-decoration: underline;
+}
+
+/* Media query to hide logos on smaller screens */
+@media (max-width: 768px) {
+    .lab-logos {
+        display: none; /* Hide the logos */
+    }
+
+    .header-text {
+        order: 1; /* Move the header text to the top */
+    }
 }
