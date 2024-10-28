@@ -60,9 +60,9 @@ header {
     color: white;
 }
 
-.seminar-schedule tr:nth-child(odd) {
+/* .seminar-schedule tr:nth-child(even) {
     background-color: #99ffff;
-}
+} */
 
 /* Lab logos styling */
 .lab-logos {
