@@ -84,31 +84,7 @@ main {
     margin:     auto;
 }
 
-* Date sidebar styles */
-.date-sidebar {
-    width: 96px;
-    background-color: #8B1818;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem 0;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    flex-shrink: 0;
-}
 
-.date-sidebar .month {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.date-sidebar .day {
-    font-size: 2.25rem;
-    font-weight: bold;
-}
 
 .talk {
     background-color: white;
@@ -201,6 +177,27 @@ p {
 .committee-list a:hover {
     text-decoration: underline;
 }
+
+sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar h4 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.sidebar p {
+    margin: 8px 0 0;
+    font-size: 1.2em;
+    color: #777;
+}
+  
 
 /* Media query to hide logos on smaller screens */
 @media (max-width: 768px) {
