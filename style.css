@@ -102,6 +102,36 @@ main {
     font-family: 'Verdana', sans-serif;
 }
 
+.nav-container {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.nav-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu-item a:hover {
+    color: #0056b3;
+}
+
 .date {
     background-color: #008080;
     color: #fff;
