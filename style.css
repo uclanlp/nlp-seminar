@@ -119,14 +119,14 @@ main {
     margin: 0;
     display: flex;
     justify-content:right;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .menu-item a {
     text-decoration: none;
     color: #008080;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .menu-item a:hover {
