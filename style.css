@@ -118,18 +118,18 @@ main {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     gap: 2rem;
 }
 
 .menu-item a {
     text-decoration: none;
-    color: #333;
+    color: #008080;
     font-weight: 500;
 }
 
 .menu-item a:hover {
-    color: #0056b3;
+    color: #008080;
 }
 
 .date {
