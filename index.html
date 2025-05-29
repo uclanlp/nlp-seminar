@@ -89,11 +89,11 @@
                     <td><a href="https://www.csie.ntu.edu.tw/~sdlin/">Shou-De Lin</a> <a href="https://homepage.iis.sinica.edu.tw/pages/miyen/">Mi-Yen Yeh</a></td>
                     <td></td>
                 </tr>
-<!--                 <tr>
+                <tr>
                     <td>May 30</td>
                     <td><a href="https://juliekallini.com/">Julie Kallini</a></td>
-                    <td></td>
-               </tr> -->
+                    <td>MrT5: Dynamic Token Merging for Efficient Byte-level Language Models</td>
+               </tr>
                  <tr>
                     <td>June 6</td>
                     <td><a href="https://tingofurro.github.io/">Phillipe Laban</a></td>
@@ -106,7 +106,40 @@
 
 
 <h2>&#128640; Upcoming Talks </h2>
-         <div class="talk"  onclick="toggleDetails(this)">
+         
+    <div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">MAY</div>
+                <div class="day">30</div>
+            </div>
+            <div class="speaker-image">
+                <a href="https://juliekallini.com/" target="_block">
+                <img src="https://juliekallini.com/assets/img/profile_pic.jpg" alt="Julie Kallini" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>Talk Title</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://juliekallini.com/">Julie Kallini</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">May 30, 2025, 2:00 PM</p>
+                <p><img src="icons/location.png" alt="Location Icon" class="icon">289, Engineering VI</p>
+<!--                 <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon">To Be Announced</p> -->
+            </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong> Julie Kallini is a second-year Ph.D. student in Computer Science at Stanford University, advised by Christopher Potts and Dan Jurafsky. Her research focuses on natural language processing (NLP), with an emphasis on computational linguistics/cognitive science, tokenization, and model architecture. Her paper, "Mission: Impossible Language Models," won Best Paper Award at ACL 2024. Her work is supported by the NSF Graduate Research Fellowship, the Stanford School of Engineering Graduate Fellowship, and the Stanford EDGE Fellowship.
+Before starting her Ph.D., Julie was a software engineer at Meta, where she worked on machine learning for advertisements. Julie graduated summa cum laude from Princeton University with a B.S.E. in Computer Science and a minor in Linguistics. </p>
+            <p><strong>Abstract:</strong> Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption—processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. MrT5 achieves up to 75% sequence length reduction with minimal performance loss, offering faster inference and competitive accuracy on multilingual and character-level tasks. Our approach presents a solution to the practical limitations of existing byte-level models. </p>
+        </div>
+    </div>
+  
+
+    <h2>&#128680; Past Talks </h2>
+
+        <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
             <div class="date">
                 <div class="month">MAY</div>
@@ -175,9 +208,6 @@ robust, inclusive, and realistic assessments. </p>
             <p><strong>Abstract:</strong> The explosion of new data sources has created new opportunities, and necessitated new machine learning methods, to answer old questions in the health and social sciences. This talk discusses three stories under this theme: first, using image data to quantify inequality in policing; second, using text data to interpretably predict target variables and characterize disparities; and third, using address data to infer fine-grained migration patterns. </p>
         </div>
     </div> 
-  
-
-    <h2>&#128680; Past Talks </h2>
 
 
         <div class="talk"  onclick="toggleDetails(this)">
