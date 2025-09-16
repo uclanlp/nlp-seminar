@@ -9,7 +9,8 @@ body {
 
 /* Header styling */
 header {
-    background-color: #008080;
+    background-color:hsl(206, 63%, 42%);
+     /* #008080;  */
     color: white;
     padding: 10px 0;
     display: flex;
@@ -56,7 +57,7 @@ header {
 }
 
 .seminar-schedule th {
-    background-color: #008080;
+    background-color: hsl(206, 63%, 42%);
     color: white;
 }
 
@@ -124,17 +125,17 @@ main {
 
 .menu-item a {
     text-decoration: none;
-    color: #008080;
+    color: hsl(206, 63%, 42%)
     font-weight: 500;
     font-size: 28px;
 }
 
 .menu-item a:hover {
-    color: #008080;
+    color: hsl(206,63%,42%)
 }
 
 .date {
-    background-color: #008080;
+    background-color: hsl(206,63%,42%)
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -192,7 +193,7 @@ main {
 
 h2 {
     font-size: 32px; /* Larger font size for talk titles */
-    color: #008080;
+    color: hsl(206,63%,42%)
 }
 
 h3 {
