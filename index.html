@@ -66,8 +66,9 @@
                 <tr>
                   <td>October 17</td>
                     <td><a href="https://aviralkumar2907.github.io/">Aviral Kumar</a></td>
-                    <td>TBD</td>
+                    <td>The Importance of Exploration for Test-Time Scaling</td>
                 </tr> 
+
                 <tr>
                   <td>October 31</td>
                     <td><a href="https://roseyu.com/">Rose Yu</a></td>
@@ -91,6 +92,64 @@
 
 
 <h2>&#128640; Upcoming Talks </h2>
+<!-- Aviral block -->
+    <div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">OCT</div>
+                <div class="day">17</div>
+            </div>
+            <div class="speaker-image">
+                <a href="https://aviralkumar2907.github.io/" target="_block">
+                <img src="Image Link" alt="Speaker Name" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>The Importance of Exploration for Test-Time Scaling</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://aviralkumar2907.github.io/">Aviral Kumar</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">TBD</p>
+                <p><img src="icons/location.png" alt="Location Icon" class="icon">TBD</p>
+                <!-- <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon">To Be Announced</p> -->
+            </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong> Aviral Kumar is an Assistant Professor of Computer Science and Machine Learning at Carnegie Mellon University, where he started in September 2024. He finished his PhD from UC Berkeley in 2023. His research focuses on reinforcement learning (RL), spanning fundamental advances in offline RL and scaling up RL, and more recently, the use of RL to train large language models (LLMs) and optimize test-time compute. He is a recipient of the Samsung AI Researcher of the Year Award (2024), the Schmidt Sciences AI2050 Early Career Fellowship (2024), and multiple best paper awards across workshops in RL, LLMs, and robotics at ICLR and ICML. </p>
+            <p><strong>Abstract:</strong> RL has enabled language models to optimize long chains of thought (CoTs), yet the field still lacks clarity on what makes these approaches succeed. Conflicting empirical results across papers often stem from differences in setting rather than principle. In this talk, I will share our perspective: effective test-time scaling hinges on in-context exploration, the ability of a model to internally experiment and infer generalizable algorithmic procedures using additional compute at inference. I will describe two RL-based approaches for training models to perform such exploration. First, I will present e3, a curriculum-based recipe that teaches models to chain together existing skills in the base model, yielding the state-of-the-art <2B language model for math reasoning. Second, I will discuss cases where chaining alone is insufficient. There, we guide exploration by conditioning the model’s CoT on concise, self-generated natural language abstractions: short procedural summaries produced before launching into long reasoning traces. These abstractions help steer test-time search more effectively. Across tasks, conditioning RL on abstractions significantly improves in-context exploration and yields sustained performance gains even when conventional pass@k scaling plateaus.I will also talk briefly about some ongoing work that builds on these ideas to improve exploration for test-time scaling.</p>
+        </div>
+    </div>
+
+<h2>Past Talks </h2>
+<!-- Jacob block -->
+    <div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">OCT</div>
+                <div class="day">10</div>
+            </div>
+            <div class="speaker-image">
+                <a href="https://www.mit.edu/~jda/" target="_block">
+                <img src="https://www.mit.edu/~jda/figs/head_small.jpg" alt="Jacob Andreas" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>Just Asking Questions</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://www.mit.edu/~jda/">Jacob Andreas</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">October 10, 2025, 2:00 PM</p>
+                <!-- <p><img src="icons/location.png" alt="Location Icon" class="icon">289, Engineering VI</p> -->
+                <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon">To Be Announced</p>
+            </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong>Jacob Andreas is an associate professor at MIT in the Department of Electrical Engineering and Computer Science as well as the Computer Science and Artificial Intelligence Laboratory. His research aims to understand the computational foundations of language learning, and to build intelligent systems that can learn from human guidance. Jacob earned his Ph.D. from UC Berkeley, his M.Phil. from Cambridge (where he studied as a Churchill scholar) and his B.S. from Columbia. He has received a Sloan fellowship, an NSF CAREER award, MIT's Junior Bose and Kolokotrones teaching awards, and paper awards at ACL, ICML and NAACL.</p>
+            <p><strong>Abstract:</strong> In the age of deep networks, "learning" almost invariably means "learning from examples". We train language models with human-generated text and labeled preference pairs, mage classifiers with large datasets of images, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from examples accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. Current language models (LMs) support a limited form of language-based teaching via prompting, but it remains challenging to use natural language supervision to apply global, persistent changes to learned models. This talk will focus on two recent projects aimed at more effectively supervising LMs using language: first, on *eliciting* new information (by asking questions to human users of LMs); second, on *updating* language models to incorporate new information (by using LMs to automatically ask and answer questions about information implied by, but not explicitly stated in, training data). If time permits, I'll also discuss some applications of these techniques to educational settings (where we can optimize questions for human, rather than machine, learning). This is joint work with Belinda Li, Alex Tamkin, Noah Goodman, Feyza Akyürek, Ekin Akyürek, Leshem Choshen, Derry Wijaya, and Alexis Ross. </p>
+        </div>
+    </div>
 
 <!-- Brihi Block -->
   <div class="talk"  onclick="toggleDetails(this)">
@@ -122,34 +181,7 @@
     </div>
 
 
-<!-- Jacob block -->
-    <div class="talk"  onclick="toggleDetails(this)">
-        <div class="talk-summary">
-            <div class="date">
-                <div class="month">OCT</div>
-                <div class="day">10</div>
-            </div>
-            <div class="speaker-image">
-                <a href="https://www.mit.edu/~jda/" target="_block">
-                <img src="https://www.mit.edu/~jda/figs/head_small.jpg" alt="Jacob Andreas" style="max-height: 300px;"/>
-                </a>
-            </div>
-            <div class="speaker-text">
-                <h3>Just Asking Questions</h3>
-                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://www.mit.edu/~jda/">Jacob Andreas</a></p>
-                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">October 10, 2025, 2:00 PM</p>
-                <!-- <p><img src="icons/location.png" alt="Location Icon" class="icon">289, Engineering VI</p> -->
-                <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon">To Be Announced</p>
-            </div>
-            <div class="footer">
-                <button class="more-details">More Details</button>
-              </div>
-        </div>
-        <div class="talk-details">
-            <p><strong>Speaker Bio:</strong>Jacob Andreas is an associate professor at MIT in the Department of Electrical Engineering and Computer Science as well as the Computer Science and Artificial Intelligence Laboratory. His research aims to understand the computational foundations of language learning, and to build intelligent systems that can learn from human guidance. Jacob earned his Ph.D. from UC Berkeley, his M.Phil. from Cambridge (where he studied as a Churchill scholar) and his B.S. from Columbia. He has received a Sloan fellowship, an NSF CAREER award, MIT's Junior Bose and Kolokotrones teaching awards, and paper awards at ACL, ICML and NAACL.</p>
-            <p><strong>Abstract:</strong> In the age of deep networks, "learning" almost invariably means "learning from examples". We train language models with human-generated text and labeled preference pairs, mage classifiers with large datasets of images, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from examples accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. Current language models (LMs) support a limited form of language-based teaching via prompting, but it remains challenging to use natural language supervision to apply global, persistent changes to learned models. This talk will focus on two recent projects aimed at more effectively supervising LMs using language: first, on *eliciting* new information (by asking questions to human users of LMs); second, on *updating* language models to incorporate new information (by using LMs to automatically ask and answer questions about information implied by, but not explicitly stated in, training data). If time permits, I'll also discuss some applications of these techniques to educational settings (where we can optimize questions for human, rather than machine, learning). This is joint work with Belinda Li, Alex Tamkin, Noah Goodman, Feyza Akyürek, Ekin Akyürek, Leshem Choshen, Derry Wijaya, and Alexis Ross. </p>
-        </div>
-    </div>
+
 
             
 
