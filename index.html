@@ -68,7 +68,11 @@
                     <td><a href="https://aviralkumar2907.github.io/">Aviral Kumar</a></td>
                     <td>The Importance of Exploration for Test-Time Scaling</td>
                 </tr> 
-
+                <tr>
+                  <td>October 24</td>
+                    <td><a href="mailto:pkordjamshidi@cmu.edu">Parisa Kordjamshidi</a></td>
+                    <td>Reasoning under Uncertainty with Large Multimodal Language Models</td>
+                </tr>
                 <tr>
                   <td>October 31</td>
                     <td><a href="https://roseyu.com/">Rose Yu</a></td>
@@ -120,7 +124,32 @@
             <p><strong>Abstract:</strong> RL has enabled language models to optimize long chains of thought (CoTs), yet the field still lacks clarity on what makes these approaches succeed. Conflicting empirical results across papers often stem from differences in setting rather than principle. In this talk, I will share our perspective: effective test-time scaling hinges on in-context exploration, the ability of a model to internally experiment and infer generalizable algorithmic procedures using additional compute at inference. I will describe two RL-based approaches for training models to perform such exploration. First, I will present e3, a curriculum-based recipe that teaches models to chain together existing skills in the base model, yielding the state-of-the-art <2B language model for math reasoning. Second, I will discuss cases where chaining alone is insufficient. There, we guide exploration by conditioning the model’s CoT on concise, self-generated natural language abstractions: short procedural summaries produced before launching into long reasoning traces. These abstractions help steer test-time search more effectively. Across tasks, conditioning RL on abstractions significantly improves in-context exploration and yields sustained performance gains even when conventional pass@k scaling plateaus.I will also talk briefly about some ongoing work that builds on these ideas to improve exploration for test-time scaling.</p>
         </div>
     </div>
-
+<div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">OCT</div>
+                <div class="day">24</div>
+            </div>
+            <div class="speaker-image">
+                <a href="mailto:pkordjamshidi@cmu.edu" target="_block">
+                <img src="https://comm.ucla.edu/wp-content/uploads/2023/08/ElisaSept2022.png" alt="Parisa Kordjamshidi" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>Reasoning under Uncertainty with Large Multimodal Language Models</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="mailto:pkordjamshidi@cmu.edu">Parisa Kordjamshidi</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">TBD</p>
+                <p><img src="icons/location.png" alt="Location Icon" class="icon">TBD</p>
+                </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong> Parisa Kordjamshidi is an Associate Professor of Computer Science and Engineering at Michigan State University. Her research focuses on Natural Language Processing, multimodal reasoning across vision and language, and neuro-symbolic learning. She received her Ph.D. from KU Leuven and conducted postdoctoral research at the University of Illinois Urbana-Champaign. She is a recipient of the NSF CAREER, Amazon Faculty Research, and Fulbright Scholar Awards, and her research team received the NAACL 2025 Outstanding Research Paper Award. Dr. Kordjamshidi serves as Associate Editor of JAIR, Co-editor in chief of ARR (2026), Action Editor for TACL and has held roles in organization committee of major conferences including ACL, NAACL, EACL, EMNLP, ECML-PKDD, and AAAI. Currently, she is a visiting Associate Professor at UCLA spending a part of her sabbatical. </p>
+            <p><strong>Abstract:</strong> Uncertainty in intelligent models has multiple facets. One aspect concerns a model’s own uncertainty or confidence in its generated outputs. Another pertains to factual knowledge about uncertainty within specific concepts. For example, statements such as “10–20% of lifelong smokers will develop lung cancer” express factual uncertainty derived from statistical data analyses and represented in text. A key research question is whether language models can form and convey such factual uncertainties—integrating information, drawing on their internal knowledge, and aligning this with their confidence when expressing opinions. While addressing this question is highly challenging, I will present our research that explores related directions and the following research question: 1) How do language models understand uncertainty expressions in natural language and perform probabilistic inference over them? 2) How can models be trained to follow the principles of probabilistic reasoning when handling uncertainty in text? 3) How can today’s large models reason over uncertain text? specifically focusing on mapping language into formal probabilistic logic programs?, and finally, in the context of grounding natural language in the visual modality, 4) How can uncertainty in perception be explicitly represented in reasoning? specifically focusing on mappings to differentiable probabilistic programs.</p>
+        </div>
+    </div>
 <h2>Past Talks </h2>
 <!-- Jacob block -->
     <div class="talk"  onclick="toggleDetails(this)">
@@ -152,7 +181,7 @@
     </div>
 
 <!-- Brihi Block -->
-  <div class="talk"  onclick="toggleDetails(this)">
+    <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
             <div class="date">
                 <div class="month">OCT</div>
