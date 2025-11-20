@@ -97,6 +97,34 @@
 
 <h2>&#128640; Upcoming Talks </h2>
 
+<!-- Sherry block -->
+<div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">NOV</div>
+                <div class="day">21</div>
+            </div>
+            <div class="speaker-image">
+                <a href="https://sherryy.github.io" target="_block">
+                <img src="https://sherryy.github.io/imgs/sherry.jpeg" alt="Sherry Yang" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>Learning World Models and Agents for High-Cost Environments</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://sherryy.github.io">Sherry Yang</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">November 21, 2025, 2:00 PM PT</p>
+                <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon"><a href="#">https://ucla.zoom.us/meeting/register/hUi_3U33S-iEaRE-uSW0JQ</a></p>
+                </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong>Sherry Yang is an Assistant Professor of Computer Science at NYU Courant and a Staff Research Scientist at Google DeepMind. She researches in machine learning with a focus on reinforcement learning and generative modeling. Her current research interests include learning world models and agents, and their applications in robotics and AI for science. Her research has been recognized by the Best Paper award at ICLR and various media outlets such as VentureBeat and TWIML. She has organized tutorials, workshops, and served as Area Chairs at major conferences (NeurIPS, ICLR, ICML, CVPR). Prior to her current role, she was a post-doc at Stanford working with Percy Liang. She received her Ph.D. from UC Berkeley advised by Pieter Abbeel and Master’s and Bachelor's degrees from MIT.</p>
+            <p><strong>Abstract:</strong>While neural networks have achieved superhuman performance in domains with low-cost simulations—from AlphaGo to LLMs—their application to the physical world is bottlenecked by a fundamental challenge: high-cost interactions. In fields like robotics, ML engineering, and the natural sciences, every action or experiment is expensive and time-consuming. This talk outlines strategies for building intelligent agents that learn efficiently despite these real-world constraints. We first address the physical world by showing how learned world models can serve as high-fidelity simulators for robotics, enabling extensive policy refinement before deployment on costly hardware. We then turn to complex engineering domains, where actions like running an ML program incur significant time delays, and discuss adaptations to reinforcement learning to make it robust for these long action settings. Finally, we show how compositional generative models can navigate the vast hypothesis spaces in science, intelligently proposing experiments to accelerate the pace of discovery.</p>
+        </div>
+    </div>
+<h2>Past Talks </h2>
 <!-- Arman block -->
 <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
@@ -124,34 +152,6 @@
             <p><strong>Abstract:</strong> We present our recent work on evaluating and understanding large language models in scientific contexts and understanding them in context of evaluation-generation capabilities. First, we'll introduce SciArena, an open evaluation platform for literature-grounded scientific tasks that uses expert preferences to rank models on long-form, literature-grounded responses. The platform currently supports a broad set of open and proprietary models and has already accumulated a large pool of high-quality preferences. Using these data, we release SciArena-Eval, a meta-evaluation benchmark for training and stress-testing automated judges on science tasks. We will then turn to scientific problem solving. We discuss a holistic suite of scientific reasoning tasks, and a new framework for studying the role of knowledge in scientific problem solving and its interaction with reasoning. Our analysis shows that retrieving task-relevant knowledge from model parameters is the primary bottleneck for science reasoning; in-context external knowledge systematically helps even strong reasoning models; and improved verbalized reasoning increases a model’s ability to surface the right knowledge. Finally, if there is time, we will present a work on generation–evaluation consistency and show that models that judge well also tend to generate outputs that align with human preferences. This enables alignment benchmarking that evaluates models in their role as judges without scoring their generations directly.</p>
         </div>
     </div>
-<!-- Sherry block -->
-<div class="talk"  onclick="toggleDetails(this)">
-        <div class="talk-summary">
-            <div class="date">
-                <div class="month">NOV</div>
-                <div class="day">21</div>
-            </div>
-            <div class="speaker-image">
-                <a href="https://sherryy.github.io" target="_block">
-                <img src="https://sherryy.github.io/imgs/sherry.jpeg" alt="Sherry Yang" style="max-height: 300px;"/>
-                </a>
-            </div>
-            <div class="speaker-text">
-                <h3>Learning World Models and Agents for High-Cost Environments</h3>
-                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://sherryy.github.io">Sherry Yang</a></p>
-                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">November 21, 2025, 2:00 PM PT</p>
-                <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon"><a href="#">Virtual - Zoom Link TBD</a></p>
-                </div>
-            <div class="footer">
-                <button class="more-details">More Details</button>
-              </div>
-        </div>
-        <div class="talk-details">
-            <p><strong>Speaker Bio:</strong>Sherry Yang is an Assistant Professor of Computer Science at NYU Courant and a Staff Research Scientist at Google DeepMind. She researches in machine learning with a focus on reinforcement learning and generative modeling. Her current research interests include learning world models and agents, and their applications in robotics and AI for science. Her research has been recognized by the Best Paper award at ICLR and various media outlets such as VentureBeat and TWIML. She has organized tutorials, workshops, and served as Area Chairs at major conferences (NeurIPS, ICLR, ICML, CVPR). Prior to her current role, she was a post-doc at Stanford working with Percy Liang. She received her Ph.D. from UC Berkeley advised by Pieter Abbeel and Master’s and Bachelor's degrees from MIT.</p>
-            <p><strong>Abstract:</strong>While neural networks have achieved superhuman performance in domains with low-cost simulations—from AlphaGo to LLMs—their application to the physical world is bottlenecked by a fundamental challenge: high-cost interactions. In fields like robotics, ML engineering, and the natural sciences, every action or experiment is expensive and time-consuming. This talk outlines strategies for building intelligent agents that learn efficiently despite these real-world constraints. We first address the physical world by showing how learned world models can serve as high-fidelity simulators for robotics, enabling extensive policy refinement before deployment on costly hardware. We then turn to complex engineering domains, where actions like running an ML program incur significant time delays, and discuss adaptations to reinforcement learning to make it robust for these long action settings. Finally, we show how compositional generative models can navigate the vast hypothesis spaces in science, intelligently proposing experiments to accelerate the pace of discovery.</p>
-        </div>
-    </div>
-<h2>Past Talks </h2>
 <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
             <div class="date">
@@ -367,16 +367,6 @@
                 <p><b>Ashima Suvarna</b></p>
                 </div>
                 </div>
-
-                <div class="speaker-image">
-                    <a href="https://www.lucasbandarkar.com/" target="_block">
-                        <img src="https://lh3.googleusercontent.com/sitesv/AICyYdaPf5CwexYmJe7mCtc0rRFC5EVsCFSsj3BixcbWrDehTvCUHdKHPqs-wRVX-SSE6HWpvVYNQImTs3mgcJzz3KZYrM5Yy1TP_7vBSB3uzH1Ue8cFr4VopUE0cRo47fdHIKczVWJSbauIMPnFXdligp_mUfHjtLUMET4qbyOmgh3bWEWQ86SulqI55B4ul_YAI1SKAo3M9CRRkwaty-axfbhFURhuCmiDGrNu=w1280" style="max-height: 200px; max-width: 200px;"/>
-                    </a>
-                </figure>
-                <p><b>Lucas Bandarkar</b></p>
-                </div>
-
-                <div class="row">
                 
 
                 <div class="speaker-image">
@@ -387,12 +377,22 @@
                 <p><b>Yingjia Wan</b></p>
                 </div>
 
+                        <div class="row">
+
                    <div class="speaker-image">
                     <a href="https://salmanrahman.net/" target="_block">
                         <img src="https://salmanrahman.net/assets/salman-img.jpg" style="max-height: 200px;"/>
                     </a>
                 </figure>
                 <p><b>Salman Rahman </b></p>
+                </div>
+
+                <div class="speaker-image">
+                    <a href="https://www.lucasbandarkar.com/" target="_block">
+                        <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkeuxNijHIkNRaiuwPm2TZXngtdN60IC1vyYj86Tvk9Sp814wPZ65WTYI8oOxzpf0pL2PR4HvQ1K2msosnyRwAIkHZqRe0yxD_FW-wIZPc8EWjwdL9PbH-bdqiroTaIQGHhpV3s5I6Ncn15YBQU9oP2LGAB38-kwo1kxXQuYF8heUIbe2AAHrkrOQujOj5awXQWfIhU_LnzsdCIYslaMwg1Gp_x8hdK1NawR=w1280" style="max-height: 200px; max-width: 200px;"/>
+                    </a>
+                </figure>
+                <p><b>Lucas Bandarkar</b></p>
                 </div>
 
             </div>
