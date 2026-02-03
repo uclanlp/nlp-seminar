@@ -71,7 +71,7 @@
                 <tr>
                   <td>February 6</td>
                     <td><a href="https://shrimai.github.io">Shrimai Prabhumoye</a></td>
-                    <td>TBD</td>
+                    <td>From Next-Token Prediction to Next-Generation Intelligence: The Future of Pretraining</td>
                 </tr>
                 <tr>
                   <td>February 20</td>
@@ -89,7 +89,35 @@
 
 
 <h2>&#128640; Upcoming Talks </h2>
+<!-- Shrimai block -->
+<div class="talk"  onclick="toggleDetails(this)">
+        <div class="talk-summary">
+            <div class="date">
+                <div class="month">FEB</div>
+                <div class="day">6</div>
+            </div>
+            <div class="speaker-image">
+                <a href="https://shrimai.github.io" target="_block">
+                <img src="https://drive.google.com/thumbnail?id=1-30AVj6Cye67JK2V9LRHNZhMZ05UYpvI&sz=w1000" alt="Shrimai Prabhumoye" style="max-height: 300px;"/>
+                </a>
+            </div>
+            <div class="speaker-text">
+                <h3>From Next-Token Prediction to Next-Generation Intelligence: The Future of Pretraining</h3>
+                <p><img src="icons/person.png" alt="Person Icon" class="icon"><a href="https://shrimai.github.io">Shrimai Prabhumoye</a></p>
+                <p><img src="icons/clock.png" alt="Clock Icon" class="icon">February 6, 2026, 2:00 PM PT</p>
+                <p><img src="icons/zoom.png" alt="Zoom Icon" class="icon"><a href="#">TBD</a></p>
+                </div>
+            <div class="footer">
+                <button class="more-details">More Details</button>
+              </div>
+        </div>
+        <div class="talk-details">
+            <p><strong>Speaker Bio:</strong>Shrimai Prabhumoye is a Senior Research Scientist at NVIDIA’s Applied Deep Learning Research Group and an Adjunct Professor at Boston University. Her work advances the state of large language models (LLMs) through innovations in pretraining algorithms that emphasize data selection, blending, and ordering strategies, as well as the use of reinforcement-based objectives to instill foundational reasoning abilities. She is the lead contributor to NVIDIA’s Nemotron family of models, driving progress in data and reasoning. Shrimai earned her PhD in Computer Science from Carnegie Mellon University, where she focused on controllable text generation and computational ethics. Her research has been featured in VentureBeat, Forbes, and TechCrunch.</p>
+            <p><strong>Abstract:</strong>This talk presents recent progress in pretraining algorithm design for large language models (LLMs), emphasizing the role of data ordering, reasoning-centric data integration, and reinforcement-based objectives in shaping model capability. We introduce a two-phase pretraining framework that formalizes strategies for data selection, blending, and sequencing, and demonstrate that front-loading reasoning-rich data during pretraining yields persistent gains in reasoning accuracy that post-training alone cannot reproduce. Further, we propose Reinforcement Learning during Pretraining (RLP) — a reinforcement-based objective that treats chain-of-thought generation as exploratory behavior, rewarding trajectories that maximize token-level information gain. Empirical results across diverse model scales show that structured data ordering combined with RLP improves downstream accuracies, and reasoning generalization, establishing a principled approach for integrating reasoning as a first-class objective in LLM pretraining.</p>
+        </div>
+    </div>
 
+<h2> Past Talks </h2>
 <!-- Swabha block -->
 <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
@@ -117,8 +145,6 @@
             <p><strong>Abstract:</strong>The majority of popular language models today are both large-scale and close-sourced, making studying their behavior quite challenging. This talk tries to answer how much we can learn from limited observations of language model behavior. First, we show that language models can be reliably evaluated using even randomly selected microbenchmarks of a certain size. Second, we use language model outputs, i.e. next-token probability distributions, to build prompt inversion attacks to reveal hidden prompts with high accuracy. These findings highlight the importance of scientific research into large language models without access to large computation resources, while still allowing accountability for the providers, as well as efficient and reliable evaluation.</p>
         </div>
     </div>
-
-<h2> Past Talks </h2>
 <!-- Chris block -->
 <div class="talk"  onclick="toggleDetails(this)">
         <div class="talk-summary">
